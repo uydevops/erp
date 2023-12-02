@@ -10,8 +10,8 @@ class DashboardController extends Controller
     
     public function home()
     {
-        $sessionInformation=session('user');
-        return view('dashboard.home',compact('sessionInformation'));
+        $userInformation=session('user');
+        return view('dashboard.home',compact('userInformation'));
     }
 
     public function logout(Request $request)
