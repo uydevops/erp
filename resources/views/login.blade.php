@@ -96,7 +96,6 @@
                                         <div class="row no-gutters">
                                             @if(session()->has('error'))
                                                 <p class="alert alert-danger">
-
                                                     {{session('error')}}
                                                 </p>
                                             @endif
